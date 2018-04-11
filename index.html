@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+
+    <title>Copa - CTG Eduardo Muller</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/coming-soon.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="overlay"></div>
+
+    <div class="masthead">
+      <div class="masthead-bg"></div>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-12 my-auto">
+            <div class="masthead-content text-white py-5 py-md-0">
+              <br/> <br/> <br/>
+              <h1 class="mb-3">CTG Eduardo Muller</h1>
+              <p class="mb-5">Calcule ou insira novos dados. <br/>
+                <strong></strong>Insira suas informações abaixo:</p>
+  <form name="f_cad" action="cadPessoa.php" method="POST">
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" placeholder="Informe apenas seu primeiro nome" name="nome" required>
+    </div>
+    <div class="form-group">
+      <label for="idade">Idade</label>
+      <input type="number" class="form-control" id="idade" placeholder="Informe sua Idade" name="idade" min='0' max='120' required>
+    </div>
+    <div class="form-group">
+      <label for="matricula">Matrícula</label>
+      <input type="text" class="form-control" id="matricula" placeholder="Informe sua matricula do MTG" name="matricula" required>
+    </div>
+    <div class="form-group">
+      <label for="matricula">Quantidade de fichas de cervejas:</label>
+      <input type="text" class="form-control" id="matricula" placeholder="Informe suas fichas" name="cerveja" required>
+    </div>
+    <div class="form-group">
+      <label for="matricula">Quantidade de fichas de água/refri:</label>
+      <input type="text" class="form-control" id="matricula" placeholder="Informe suas fichas" name="refriagua" required>
+    </div>
+
+    <button class="btn btn-secondary" type="submit">Envie seus dados!</button>
+  </form>
+
+
+<script type="text/javascript">
+function Nova()
+{
+location.href=" envia_dados.php"
+}
+</script>
+  <button type="button" class="btn btn-dark" onclick="Nova()">Clique para obter seus dados</button>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-icons">
+      <ul class="list-unstyled text-center mb-0">
+        <li class="list-unstyled-item">
+          <a href="https://www.facebook.com/ctgedumuller" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/vide/jquery.vide.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/coming-soon.min.js"></script>
+
+  </body>
+
+</html>
